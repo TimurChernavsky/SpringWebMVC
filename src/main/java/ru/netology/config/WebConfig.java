@@ -1,4 +1,4 @@
-package ru.netology..config;
+package ru.netology.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
