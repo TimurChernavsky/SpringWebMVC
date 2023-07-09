@@ -35,6 +35,9 @@ public class PostRepository implements PostRepositoryInterface {
     }
 
     public void removeById(long id) {
+        if (repo.isEmpty() || repo == null) {
+            return;
+        }
         repo.remove(id);
     }
 }
